@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<br>
+    <head>
+         <title>Application form</title>
+         <style>
+            h3{
+                color:blue;
+            }
+            body{
+               background-color:bisque;
+            }
+         </style>
+    </head>
+
+    <body>
+        <form  action="link.html">
+        <h3 align="center">APPLICATION FORM</h3>
+        <table cellspacing="5" cellpadding="5%" align="center">
+        <tr>
+        <td align="left">STUDENT NAME:</td> 
+        <td><input type="text"  name="stdname"  ></td> 
+        </tr>
+        <tr>
+            <td>FATHER NAME:</td>
+        <td><input type="text" name="fatname"></td>
+        </tr>
+         <tr>
+          <td> FATHER OCCUPATION:</td>
+        <td><input type="text"></td>
+    </tr> 
+          <tr>
+          <td>DATE OF BIRTH: </td>
+          <td> <input type="text"></td>
+          </tr>
+
+         <tr>
+            <td>CONTACT NUMBER:</td>
+            <td><input type="text"></td>
+         </tr>
+
+         <tr>
+            <td>UPLOAD PHOTO:</td>
+             <td><input type="file" value="photo" ></td>
+          </tr>
+ 
+          <tr>
+            <td> GENDER:</td>
+             <td>
+                <input type="radio" name="rb1" value="Male" >Male
+             <input type="radio" name="rb2" value="Female">Female
+            </td>
+          </tr>
+
+
+            <tr>
+                <td align="left">CATEGORY: </td>
+        <td align="left"><input type="text"   value="" name="text"    >
+        <select name="dropdown">
+          <option value="1">GM</option>
+          <option value="2">SC</option>
+          <option value="3">ST</option>
+          <option value="4">C1</option>
+          <option value="5">2A</option>
+          <option value="6">2B</option>
+          <option value="7">3A</option>
+          <option value="8">2B</option>
+        </select>
+    </td>
+</tr>
+        <tr>
+        <td align="left">Institute of the Board PASSED:</td>
+           <td><input type="text"   value="" name="text"    >
+            <select>
+              <option value="1">SSLC</option>
+              <option value="2">CBSE</option>
+              <option value="3">ICSE</option>
+              <option value="4">OTHER STATE</option>
+            </select>
+    </td>
+        </tr>
+       <tr>
+        <td>STUDENT ADDRESS:</td>
+        <td><input name="address " type="textarea "  ><br>Enter the Contact Address with Pin code</td>
+      
+       </tr>
+
+       <tr>
+        <td align="left">SUBJECT CHOOSEN:</td>
+        <td>
+            <input name="cb1" type="checkbox"  value="checkbox">HINDI
+<input name="cb2" type="checkbox" value="checkbox">ENGLISH
+<input name="cb3" type="checkbox" value="checkbox">C++
+<input name="cb4" type="checkbox" value="checkbox">JAVA
+<input name="cb5" type="checkbox" value="checkbox">PYTHON
+<input name="cb6" type="checkbox" value="checkbox">WEB 
+<input name="cb7" type="checkbox" value="checkbox">SOFTWARE 
+ </td>
+    </tr>
+
+    <tr>
+        <td><input name="submit" type="Submit" value="SUBMIT THE FORM"></td>
+        <td><input name="reset" type="Reset" value="RESET THE FORM"></td>
+    </tr>
+</table>
+</form>
+
+    </body>
+
+</html>
